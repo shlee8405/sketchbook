@@ -37,6 +37,8 @@ function copyPixel(num, what, where, id) {
 copyPixel(16, pixelRow, container, "pixelRow");
 copyPixel(16, pixel, pixelRow, "pixel");
 
+
+//Hover to change color to red
 var pixel = document.getElementsByClassName('pixel');
 Object.keys(pixel).forEach(as=> {
     pixel[as].addEventListener('mouseenter', function(e){
